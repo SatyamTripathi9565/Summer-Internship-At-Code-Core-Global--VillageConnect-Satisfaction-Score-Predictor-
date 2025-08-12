@@ -13,16 +13,13 @@ A Machine Learning project to predict **Satisfaction Score** for rural services 
 ---
 
 ## 📂 Project Structure
-├── Week9/
-│ ├── app.py # Streamlit app
-│ ├── project.py # Model training and evaluation
-│ ├── villageconnect_large.csv # Dataset
-│ ├── village_model_best.pkl # Saved trained model
-│ ├── Screenshot.png # Demo screenshot
-└── README.md
-
-
----
+Week9/
+app.py # Streamlit app
+project.py # Model training and evaluation
+villageconnect_large.csv # Dataset
+village_model_best.pkl # Saved trained model
+Screenshot.png # Demo screenshot
+README.md
 
 ## 🛠️ Installation & Setup
 
