@@ -8,7 +8,7 @@ model = joblib.load(model_path)
 
 st.set_page_config(page_title="VillageConnect Satisfaction Predictor", page_icon="🌾")
 
-st.title("🌾 VillageConnect Satisfaction Score Predictor")
+st.title(" VillageConnect Satisfaction Score Predictor")
 st.write("Fill in the details to predict the **Satisfaction Score** for your village.")
 
 # User Inputs (based on your CSV columns)
@@ -19,7 +19,7 @@ cost = st.number_input("Cost", min_value=0, value=500)
 usage_hours = st.number_input("Usage Hours", min_value=0.0, value=5.0, step=0.1)
 
 # Predict Button
-if st.button("🔍 Predict Satisfaction Score"):
+if st.button("Predict Satisfaction Score"):
     input_data = pd.DataFrame({
         "Region": [region],
         "Service": [service],
@@ -33,3 +33,4 @@ if st.button("🔍 Predict Satisfaction Score"):
 
 st.markdown("---")
 st.caption("Built with ❤️ using Streamlit & XGBoost for the VillageConnect Project")
+
